@@ -14,7 +14,7 @@ class Food(Part):
 	screen = None
 
 	def __init__(self, y, x, maxy, maxx, screen):
-		super().__init__(y, x)
+		super(Food, self).__init__(y, x)
 		self.screen = screen
 		self.maxy = maxy
 		self.maxx = maxx
